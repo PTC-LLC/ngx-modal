@@ -161,7 +161,7 @@ export class Modal {
     // -------------------------------------------------------------------------
 
     public preventClosing(event: MouseEvent) {
-        event.stopPropagation();
+        //event.stopPropagation();
     }
 
     private createBackDrop() {
